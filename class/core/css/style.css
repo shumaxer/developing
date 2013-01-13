@@ -1,0 +1,285 @@
+
+body {
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.form-signin {
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+
+.div-signin {
+    width: 1200px; height: 529px;
+    padding: 0 0 29px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.div-signin .div-signin-heading,
+.div-signin .checkbox {
+    margin-bottom: 10px;
+}
+.div-signin input[type="text"],
+.div-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+#title{
+    width: 100%; background-color: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 0 0; height: 25px; margin-left: -1px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+
+}
+#building{
+    margin: 25px auto;
+    width: 95%;
+    height: 60px;
+    border: 1px solid #DDDDDD;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    border-radius: 4px;
+    top: -1px;
+}
+#closeBuilding{
+    width: 78%;
+    height: 59px;
+    position: absolute;
+    z-index: 999999;
+    opacity: 0.5;
+    background: #DDDDDD;
+    display: none;
+}
+
+#propertiesTable
+{
+    margin: 25px auto;
+    width: 95%;
+    height: 350px;
+    border: 1px solid #DDDDDD;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    border-radius: 4px;
+    top: -1px;
+}
+#listTable{
+    float: left;
+    margin: 10px 25px 10px 15px;
+    height: 320px;
+    border: 1px solid #0088CC;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    border-radius: 4px;
+    top: -1px;
+    margin-left: 10px;
+}
+#listTable table input{
+    margin: 2px auto;
+    padding: 5px;
+}
+#listTable table select{
+    margin: 2px auto;
+    padding: 0;
+}
+#panel2
+{
+    width: 100%;
+    height: 292px;
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+.titleTable
+{
+    width: 100%; background-color: #0088CC;
+    border: 1px solid #0088CC;
+    border-radius: 4px 4px 0 0; height: 25px; margin-left: -1px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+.titleTable img
+{
+    float: right;
+    height: 16px;
+    width: 16px;
+    margin: 5px;
+}
+.addTable{
+    float: left;  width: 100%; height: 25px; 
+}
+
+#inputStyle{
+    border: 1px solid #ffffff;
+    height: 22px;
+    outline:none;
+    box-shadow: none;
+    padding: 0 0 0 10px;
+}
+#inputStyle input[type="text"]:focus {
+
+    box-shadow: 0 0 0 0 inset;
+    border: 1px solid #ffffff;
+    height: 25px;
+
+}
+#jsonArray{
+    width: 1000px;
+}
+#blok{
+    display: none;
+}
+#msgObj{
+    background: #149bdf; 
+    border-radius: 0 0 5px 0; 
+    font-size: 14px; 
+    position: absolute; 
+    min-height: 50px; 
+    margin-top: -40px; 
+    display: none;
+    opacity: 0.5;
+}
+#msgObj p{
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+#delIndex{
+            width: 16px; height: 16px;
+            background: url(../img/ico/delete.png); 
+            background-repeat: no-repeat; 
+            margin: -21px 5px 5px; 
+            float: right;
+            cursor: pointer;
+            
+}
+
+.dropTable{
+   width: 175px; height: 30px; border: 1px solid #0088CC; float: left; margin: 10px;
+}
+
+
+.dropTable:hover{
+    cursor: pointer;
+    background: #DDDDDD;
+}
+.dropTable img{
+    width: 22px;
+    height: 22px;
+    margin: 3px 6px 3px 4px;
+    border: none;
+    float: left;
+}
+.dropTable p{
+    font-size: 14px;
+    font-family: serif;
+    width: 100%;
+    margin:  4px 3px;
+    color: #000000;
+}
+
+.dropPolia{
+   width: 148px;
+   height: 30px;
+   border: 1px solid #0088CC;
+   float: left; margin: 10px;
+   display: none;
+}
+.dropPolia:hover{
+    cursor: pointer;
+    background: #DDDDDD;
+}
+.dropPolia img{
+    width: 22px;
+    height: 22px;
+    margin: 3px 6px 3px 4px;
+    border: none;
+    float: left;
+}
+.dropPolia p{
+    font-size: 14px;
+    font-family: serif;
+    width: 100%;
+    margin:  4px 3px;
+    color: #000000;
+}
+#allItem{
+    border-bottom:1px #0088CC dotted; height: 25px;
+    cursor:pointer;
+}
+#allItem img{
+    float: left;
+    margin: 3px 5px 0 0;
+}
+#allItem p{
+    float: left;
+    margin: 3px 0 0 0;
+}
+
+#dizaner{
+    width: 95%;
+    margin: 0 auto;
+    height: 550px;
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+}
+#panelForTable{
+    width: 100%;
+    display:none;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#scrollPanel{
+    height: 531px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+
+}
+#primaryKeyImg{
+    float: right;
+    margin: 5px;
+    width: 16px;
+    height: 16px;
+    margin-top: -25px;
+
+}
